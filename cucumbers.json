@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "historical_sparkline",
+					"settings": {
+						"title": "Moisture",
+						"value": [
+							"datasources[\"moisture\"][\"results\"]"
+						]
+					}
+				}
+			]
+		}
+	],
+	"datasources": [
+		{
+			"name": "moisture",
+			"type": "JSON",
+			"settings": {
+				"url": "https://parseapi.back4app.com/classes/moisture",
+				"use_thingproxy": true,
+				"refresh": 100,
+				"method": "GET",
+				"headers": [
+					{
+						"name": "X-Parse-Application-Id",
+						"value": "KyjOOhzG63RIQMnFzg2O5galmvCGJhcfivlfAzKC"
+					},
+					{
+						"name": "X-Parse-REST-API-Key",
+						"value": "7FJqm2MCSsjXyGDB68UMh7LfqPGAAAJRqF4FPHdY"
+					}
+				]
+			}
+		}
+	],
+	"columns": 3
+}
