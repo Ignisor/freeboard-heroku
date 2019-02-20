@@ -42,7 +42,7 @@
 			"settings": {
 				"url": "https://parseapi.back4app.com/classes/moisture",
 				"use_thingproxy": true,
-				"refresh": 100,
+				"refresh": 60,
 				"method": "GET",
 				"headers": [
 					{
