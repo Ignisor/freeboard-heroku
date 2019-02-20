@@ -21,6 +21,16 @@
 							"datasources[\"moisture\"][\"results\"]"
 						]
 					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"title": "Moisture average",
+						"size": "regular",
+						"value": "var total=0;\n\nfor(var i = 0; i < datasources[\"moisture\"][\"results\"].length; i++) { \n    total += datasources[\"moisture\"][\"results\"][i][\"value\"]; \n}\n\nreturn total / datasources[\"moisture\"][\"results\"].length;",
+						"sparkline": false,
+						"animate": true
+					}
 				}
 			]
 		}
