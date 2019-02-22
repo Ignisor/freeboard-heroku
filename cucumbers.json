@@ -33,6 +33,26 @@
 					}
 				}
 			]
+		},
+		{
+			"title": "Credits",
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 2
+			},
+			"col_width": 2,
+			"widgets": [
+				{
+					"type": "html",
+					"settings": {
+						"html": "<div style=\"display: flex; justify-content: center\">\n<div style=\"display: flex; align-items: center; flex-direction: column; padding-left: 10px\">\t\n\t<h3>GitHub</h3>\n\t<a target=\"_blank\" href=\"https://github.com/Ignisor\"><img src=\"https://avatars1.githubusercontent.com/u/22328453?s=180&v=4\"></a>\n</div>\n<div style=\"display: flex; align-items: center; flex-direction: column; padding-left: 10px\">\t\n\t<h3>GoWombat Team</h3>\n\t<a target=\"_blank\" href=\"https://gowombat.team/\"><img width=180 height=180 src=\"https://gowombat.team/media/tmp/logo_gwt_round_512_blog.png\" style=\"object-fit: cover\"></a>\n</div>\n</div>",
+						"height": 4
+					}
+				}
+			]
 		}
 	],
 	"datasources": [
@@ -50,8 +70,8 @@
 						"value": "KyjOOhzG63RIQMnFzg2O5galmvCGJhcfivlfAzKC"
 					},
 					{
-						"name": "X-Parse-REST-API-Key",
-						"value": "7FJqm2MCSsjXyGDB68UMh7LfqPGAAAJRqF4FPHdY"
+						"name": "X-Parse-JavaScript-Key",
+						"value": "z9bwCvDEZpO2dQdhljV2nmD2UtEOv3e0fzVDdVD9"
 					}
 				]
 			}
